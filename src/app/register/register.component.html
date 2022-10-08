@@ -1,0 +1,11 @@
+<h1>Register page</h1>
+
+<form (ngSubmit)="register()" [formGroup]="registerForm" action="">
+    
+    <label for="">username</label>
+    <input formControlName="acno" type="text" name="acno" id="">
+    <label for="">password</label>
+    <input formControlName="password" type="password" name="acno" id="">
+    <button type="submit">register</button>
+    <p>already a user?<a routerLink="">login page</a></p>
+</form>
