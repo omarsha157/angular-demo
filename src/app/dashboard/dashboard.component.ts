@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  info:any
+  data:any
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  process() {
+    this.data = this.info
   }
 
 }
